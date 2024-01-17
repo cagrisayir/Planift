@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct PlaniftApp: App {
+struct MainApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PlanetsListView()
         }
     }
 }

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0621BC3E2B58349E006FF7DB /* PlaniftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0621BC3D2B58349E006FF7DB /* PlaniftApp.swift */; };
-		0621BC402B58349E006FF7DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0621BC3F2B58349E006FF7DB /* ContentView.swift */; };
+		0621BC3E2B58349E006FF7DB /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0621BC3D2B58349E006FF7DB /* MainApp.swift */; };
+		0621BC402B58349E006FF7DB /* PlanetsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0621BC3F2B58349E006FF7DB /* PlanetsListView.swift */; };
 		0621BC422B58349F006FF7DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0621BC412B58349F006FF7DB /* Assets.xcassets */; };
 		0621BC452B58349F006FF7DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0621BC442B58349F006FF7DB /* Preview Assets.xcassets */; };
 		0621BC4C2B5835EE006FF7DB /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 0621BC4B2B5835EE006FF7DB /* data.json */; };
@@ -17,8 +17,8 @@
 
 /* Begin PBXFileReference section */
 		0621BC3A2B58349E006FF7DB /* Planift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0621BC3D2B58349E006FF7DB /* PlaniftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaniftApp.swift; sourceTree = "<group>"; };
-		0621BC3F2B58349E006FF7DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0621BC3D2B58349E006FF7DB /* MainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
+		0621BC3F2B58349E006FF7DB /* PlanetsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsListView.swift; sourceTree = "<group>"; };
 		0621BC412B58349F006FF7DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0621BC442B58349F006FF7DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0621BC4B2B5835EE006FF7DB /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
@@ -56,8 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				0621BC4B2B5835EE006FF7DB /* data.json */,
-				0621BC3D2B58349E006FF7DB /* PlaniftApp.swift */,
-				0621BC3F2B58349E006FF7DB /* ContentView.swift */,
+				0621BC3D2B58349E006FF7DB /* MainApp.swift */,
+				0621BC3F2B58349E006FF7DB /* PlanetsListView.swift */,
 				0621BC412B58349F006FF7DB /* Assets.xcassets */,
 				0621BC432B58349F006FF7DB /* Preview Content */,
 				0621BC4D2B5836D7006FF7DB /* Launch Screen.storyboard */,
@@ -145,8 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0621BC402B58349E006FF7DB /* ContentView.swift in Sources */,
-				0621BC3E2B58349E006FF7DB /* PlaniftApp.swift in Sources */,
+				0621BC402B58349E006FF7DB /* PlanetsListView.swift in Sources */,
+				0621BC3E2B58349E006FF7DB /* MainApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
