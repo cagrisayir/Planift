@@ -20,7 +20,7 @@ struct PlanetsListView: View {
                 .scaledToFit()
                 .ignoresSafeArea()
 
-            VStack {
+            VStack(alignment: .leading) {
                 Text("THE PLANETS")
                     .font(.largeTitle)
                     .foregroundStyle(.white)
@@ -33,7 +33,7 @@ struct PlanetsListView: View {
                         SingleListElement(image: planet.images.planet.removeAssetPath(), name: planet.name)
                     }
                 }
-            }
+            }.padding()
         }
     }
 }
