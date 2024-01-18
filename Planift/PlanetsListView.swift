@@ -16,20 +16,21 @@ struct PlanetsListView: View {
                 .ignoresSafeArea()
             Image("background-stars")
                 .resizable()
-                .scaledToFill()
+
+                .scaledToFit()
                 .ignoresSafeArea()
 
-            VStack(alignment: .leading) {
+            VStack {
                 Text("THE PLANETS")
                     .font(.largeTitle)
                     .foregroundStyle(.white)
                     .bold()
-                
-                Divider()
 
-                ScrollView {
-                    ForEach(planets, id: \.name) { planet in
-                        Text("\(planet.name)").foregroundStyle(.white)
+                ForEach(planets, id: \.name) { planet in
+                    NavigationLink {
+                        // MARK: TODO:
+                    } label: {
+                        SingleListElement(image: planet.images.planet.removeAssetPath(), name: planet.name)
                     }
                 }
             }
