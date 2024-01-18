@@ -8,15 +8,19 @@
 import SwiftUI
 
 struct SingleListElement: View {
-    var color: Color = Color("blood")
+    var image: String = "planet-mercury"
     var name: String = "Mars"
 
     var body: some View {
         VStack {
             HStack(alignment: .center) {
                 Circle()
-                    .foregroundStyle(color)
-                    .frame(height: 25)
+                    .frame(height: 30)
+                    .overlay {
+                        Image(image)
+                            .resizable()
+                            .frame(height: 30)
+                    }
 
                 Text(name)
                     .foregroundStyle(.white)
@@ -34,10 +38,9 @@ struct SingleListElement: View {
             }
             Divider()
         }.padding()
-            .background(.black)
     }
 }
 
 #Preview {
-    SingleListElement()
+    SingleListElement().background(.black)
 }
