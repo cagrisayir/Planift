@@ -13,6 +13,7 @@
 		0621BC452B58349F006FF7DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0621BC442B58349F006FF7DB /* Preview Assets.xcassets */; };
 		0621BC4C2B5835EE006FF7DB /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 0621BC4B2B5835EE006FF7DB /* data.json */; };
 		0621BC4E2B5836D7006FF7DB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0621BC4D2B5836D7006FF7DB /* Launch Screen.storyboard */; };
+		06E2238F2B594E0F00CAB6B0 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E2238E2B594E0F00CAB6B0 /* Bundle-Decodable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		0621BC442B58349F006FF7DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0621BC4B2B5835EE006FF7DB /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		0621BC4D2B5836D7006FF7DB /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		06E2238E2B594E0F00CAB6B0 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,9 @@
 		0621BC3C2B58349E006FF7DB /* Planift */ = {
 			isa = PBXGroup;
 			children = (
+				06E2238D2B594DC700CAB6B0 /* Helpers */,
+				06E2238C2B594DC200CAB6B0 /* Views */,
+				06E2238B2B594DBA00CAB6B0 /* Models */,
 				0621BC4B2B5835EE006FF7DB /* data.json */,
 				0621BC3D2B58349E006FF7DB /* MainApp.swift */,
 				0621BC3F2B58349E006FF7DB /* PlanetsListView.swift */,
@@ -71,6 +76,28 @@
 				0621BC442B58349F006FF7DB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		06E2238B2B594DBA00CAB6B0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		06E2238C2B594DC200CAB6B0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		06E2238D2B594DC700CAB6B0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				06E2238E2B594E0F00CAB6B0 /* Bundle-Decodable.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +174,7 @@
 			files = (
 				0621BC402B58349E006FF7DB /* PlanetsListView.swift in Sources */,
 				0621BC3E2B58349E006FF7DB /* MainApp.swift in Sources */,
+				06E2238F2B594E0F00CAB6B0 /* Bundle-Decodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
