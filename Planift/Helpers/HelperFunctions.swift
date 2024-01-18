@@ -8,7 +8,7 @@
 import Foundation
 
 extension String {
-    static func removeAssetPath() -> String {
-        return self.replacingOccurrences(<#T##self: String##String#>)
+    func removeAssetPath() -> String {
+        return replacingOccurrences(of: "./assets/", with: "")
     }
 }
