@@ -7,8 +7,7 @@
 
 import Foundation
 
-struct Planet: Codable, Identifiable {
-    var id: UUID = UUID()
+struct Planet: Codable {
     var name: String
     var overview: Subcontent
     var structure: Subcontent
