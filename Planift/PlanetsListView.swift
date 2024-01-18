@@ -19,9 +19,18 @@ struct PlanetsListView: View {
                 .scaledToFill()
                 .ignoresSafeArea()
 
-            VStack {
-                ForEach(planets, id: \.name) { planet in
-                    Text("\(planet.name)").foregroundStyle(.white)
+            VStack(alignment: .leading) {
+                Text("THE PLANETS")
+                    .font(.largeTitle)
+                    .foregroundStyle(.white)
+                    .bold()
+                
+                Divider()
+
+                ScrollView {
+                    ForEach(planets, id: \.name) { planet in
+                        Text("\(planet.name)").foregroundStyle(.white)
+                    }
                 }
             }
         }

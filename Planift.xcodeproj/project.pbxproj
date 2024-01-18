@@ -16,6 +16,7 @@
 		06E2238F2B594E0F00CAB6B0 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E2238E2B594E0F00CAB6B0 /* Bundle-Decodable.swift */; };
 		06E223912B594FA700CAB6B0 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E223902B594FA700CAB6B0 /* Planet.swift */; };
 		06E223932B59514000CAB6B0 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E223922B59514000CAB6B0 /* HelperFunctions.swift */; };
+		06E223952B595E5200CAB6B0 /* SingleListElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E223942B595E5200CAB6B0 /* SingleListElement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		06E2238E2B594E0F00CAB6B0 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		06E223902B594FA700CAB6B0 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 		06E223922B59514000CAB6B0 /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		06E223942B595E5200CAB6B0 /* SingleListElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleListElement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		06E2238C2B594DC200CAB6B0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				06E223942B595E5200CAB6B0 /* SingleListElement.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06E223952B595E5200CAB6B0 /* SingleListElement.swift in Sources */,
 				0621BC402B58349E006FF7DB /* PlanetsListView.swift in Sources */,
 				0621BC3E2B58349E006FF7DB /* MainApp.swift in Sources */,
 				06E223932B59514000CAB6B0 /* HelperFunctions.swift in Sources */,
