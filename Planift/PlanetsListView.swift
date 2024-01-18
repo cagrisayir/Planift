@@ -16,7 +16,6 @@ struct PlanetsListView: View {
                 .ignoresSafeArea()
             Image("background-stars")
                 .resizable()
-
                 .scaledToFit()
                 .ignoresSafeArea()
 
@@ -28,13 +27,14 @@ struct PlanetsListView: View {
 
                 ForEach(planets, id: \.name) { planet in
                     NavigationLink {
-                        // MARK: TODO:
+                        PlanetNavigationView(planet: planet)
                     } label: {
                         SingleListElement(image: planet.images.planet.removeAssetPath(), name: planet.name)
                     }
                 }
             }.padding()
         }
+        .ignoresSafeArea()
     }
 }
 
