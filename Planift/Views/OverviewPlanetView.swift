@@ -37,7 +37,7 @@ struct OverviewPlanetView: View {
                     })
                 }.padding(.horizontal, 25)
                 Spacer()
-                Image(planet.images.planet)
+                Image(planet.images.planet.removeAssetPath())
                     .resizable()
                     .frame(width: 111, height: 111)
 
