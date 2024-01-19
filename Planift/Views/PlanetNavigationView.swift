@@ -26,7 +26,7 @@ struct PlanetNavigationView: View {
                 }
 
             // Surface
-            SurfacePlanetView()
+            SurfacePlanetView(planet: planet)
                 .tabItem {
                     Text("Surface")
                         .foregroundStyle(.white)
