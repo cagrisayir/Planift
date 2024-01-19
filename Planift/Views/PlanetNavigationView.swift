@@ -19,7 +19,7 @@ struct PlanetNavigationView: View {
                 }
 
             // Structure
-            StructurePlanetView()
+            StructurePlanetView(planet: planet)
                 .tabItem {
                     Text("Structure")
                         .foregroundStyle(.white)
